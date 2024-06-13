@@ -8,7 +8,7 @@ sock.settimeout(0.5)
 print('Done')
 # Connect to the remote host and port
 print('Connecting to remote host...')
-sock.connect(('10.40.0.4', 4196))
+sock.connect(('10.40.0.5', 4196))
 print('Done')
 
 # Send a request to the host
