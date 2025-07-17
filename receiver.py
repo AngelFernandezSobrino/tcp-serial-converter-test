@@ -7,7 +7,7 @@ sock.settimeout(1)
 print("Done")
 # Connect to the remote host and port
 print("Connecting to remote host...")
-sock.connect(("10.40.0.6", 4196))
+sock.connect(("10.40.0.4", 4196))
 print("Done")
 
 encondings = [
